@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BFRO</title>
+    <link rel="shortcut icon" href="images/BFRO.png">
+    <link rel="stylesheet" href="css/sub.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(function(){
+            $('article').hover(
+                function(){
+                $(this).find('.two').show();
+                $(this).find('.one').hide();
+            },
+                function(){
+                $(this).find('.one').show();
+                $(this).find('.two').hide();
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <a href="#" id="top">TOP</a>
+    <header>
+        <nav> 
+            <div><img src="images/menu.png" alt=""></div>           
+            <ul>
+                <li><a href="sub.html">New</a></li>
+                <li><a href="#">Diaries</a></li>
+                <li><a href="#">Write</a></li>
+                <li><a href="#">Plan</a></li>
+                <li><a href="index.html">BFRO</a></li>
+                <li><a href="#">Create</a></li>
+                <li><a href="#">Gift</a></li>
+                <li><a href="#">Brands</a></li>
+            </ul>
+            <div><a href="login.html"><img src="images/users_icon.png" alt=""></a></div>
+            <div>
+                <input type="checkbox" id="cart"/>
+                <label for="cart"><img src="images/cart.png" alt=""></label>
+                <div class="menu">
+                    <h3>SHOPPING BAG</h3>
+                    <p>Your shopping bag is currently empty.</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h1 id="new">NEW</h1>
+
+    <section>
+        <form action="">
+            <select id="select" onfocus='this.size=6;' onblur='this.size=0;' onchange='this.size=1; this.blur();'>
+                <option value="best" selected>BEST SELLER</option>
+                <option value="new">NEWEST</option>
+                <option value="az">A-Z</option>
+                <option value="za">Z-A</option>
+                <option value="low">LOW PRICE</option>
+                <option value="high">HIGH PRICE</option>
+            </select>
+        </form>
+        <article>
+            <a href="contents.html">
+            <img class="one" src="images/content0_1.png" alt="">
+            <img class="two" src="images/content0_2.png" alt="">
+            <p>
+                Table Cracker Set Of 6<br>
+                STUDIO MILLIGRAM
+                <span>$29.95</span>
+            </p>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content2_1.png" alt="">
+            <img class="two" src="images/content2_2.png" alt="">
+            <p>
+                Alcala Dress - Aquarela<br>
+                LANHTROPY
+                <span>$240.00</span>
+            </p>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content3_1.png" alt="">
+            <img class="two" src="images/content3_2.png" alt="">
+            <p>
+                Mod Floral Vase<br>
+                BAN.DO
+                <span>$26.95</span>
+            </p>
+            </a>
+        </article>
+        <article class="add">
+            <a href="#">
+            <img src="images/add.png" alt="">
+            <!-- <p>
+                Hello Sunshine Mindfulness Gift<br>
+                MARVLING BROS
+                <span>$10.00</span>
+            </p> -->
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content4_1.png" alt="">
+            <img class="two" src="images/content4_2.png" alt="">
+            <p>
+                Check Print Trousers<br>
+                COMPAÑÍA FANTÁSTICA
+                <span>$54.00</span>
+            </p>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content5_1.png" alt="">
+            <img class="two" src="images/content5_2.png" alt="">
+            <p>
+                Keep It Zen Lavender Mask & Hand Cream Set<br>
+                TONYMOLY
+                <span>$14.00</span>
+            </p>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content6_1.png" alt="">
+            <img class="two" src="images/content6_2.png" alt="">
+            <p>
+                Quattro Rib Slipper - Golden Olive<br>
+                VERLOOP
+                <span>$48.00</span>
+            </p>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content7_1.png" alt="">
+            <img class="two" src="images/content7_2.png" alt="">
+            <p>
+                Standard Baggu - Jessica Rodriguez<br>
+                BAGGU
+                <span>$14.00</span>
+            </p>
+            </a>
+        </article>
+        <article class="add">
+            <a href="#">
+            <img src="images/add2.png" alt="">
+            <!-- <p>
+                Hello Sunshine Mindfulness Gift<br>
+                MARVLING BROS
+                <span>$10.00</span>
+            </p> -->
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/new2.png" alt="">
+            <img class="two" src="images/new3.png" alt="">
+            <p>
+                Standard Baggu - KerokeroKeroppi<br>
+                BAGGU
+                <span>$14.00</span>
+            </p>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content8_1.png" alt="">
+            <img class="two" src="images/content8_2.png" alt="">
+            <p>
+                Lucite Jumbling Tower - Aurora<br>
+                SUNNYLIFE
+                <span>$170.00</span>
+            </p>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content9_1.png" alt="">
+            <img class="two" src="images/content9_2.png" alt="">
+            <p>
+                Mini Cross Stitch Kit - Strawberry<br>
+                MARVLING BROS
+                <span>$10.00</span>
+            </p>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content10_1.png" alt="">
+            <img class="two" src="images/content10_2.png" alt="">
+            <p>
+                Lucite Checkers - Smiley<br>
+                SUNNYLIFE
+                <span>$200.00</span>
+            </p>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content11_1.png" alt="">
+            <img class="two" src="images/content11_2.png" alt="">
+            <p>
+                Stick with It! Big Vinyl Stickers - Assorted<br>
+                BAN.DO
+                <span>$9.95</span>
+            </p>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content12_1.png" alt="">
+            <img class="two" src="images/content12_2.png" alt="">
+            <p>
+                Embroidery Kit - Mushrooms<br>
+                ANTIQUARIA
+                <span>$36.00</span>
+            </p>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content13_1.png" alt="">
+            <img class="two" src="images/content13_2.png" alt="">
+            <p>
+                Stainless Steel Wine Glass with Lid - Take a Break<br>
+                BAN.DO
+                <span>$22.95</span>
+            </p>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content14_1.png" alt="">
+            <img class="two" src="images/content14_2.png" alt="">
+            <p>
+                Vans x IRENEISGOOD Socks<br>
+                VANS
+                <span>$20.00</span>
+            </p>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content1_1.png" alt="">
+            <img class="two" src="images/content1_2.png" alt="">
+            <p>
+                Black Heart Daisy Blouse<br>
+                FARM RIO
+                <span>$195.00</span>
+            </p>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content15_1.png" alt="">
+            <img class="two" src="images/content15_2.png" alt="">
+            <p>
+                Getaway Passport Wallet - Endless Possibilities<br>
+                BAN.DO
+                <span>$26.95</span>
+            </p>
+            </a>
+        </article>
+        <article>
+            <a href="#">
+            <img class="one" src="images/content16_1.png" alt="">
+            <img class="two" src="images/content16_2.png" alt="">
+            <p>
+                Flower Sock Slippers<br>
+                VERLOOP
+                <span>$55.00</span>
+            </p>
+            </a>
+        </article>
+        <div id="slider">
+            <a href="#"><div>1</div></a>
+            <a href="#"><div>2</div></a>
+            <a href="#"><div>3</div></a>
+            <div>...</div>
+            <a href="#"><div>10</div></a>
+            <div class="next"><a href="#">NEXT▶</a></div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+        <div id="cate">
+            <h3>Catalog</h3>
+            <ul>
+                <li><a href="#">Best sellers</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Planners</a></li>
+                <li><a href="#">Desk</a></li>
+                <li><a href="#">Living</a></li>
+                <li><a href="#">Clothing</a></li>
+                <li><a href="#">Gift</a></li>
+            </ul>
+        </div>
+        <div id="cust">
+            <h3>Customer info</h3>
+            <ul>
+                <li><a href="#">About us & our purpose</a></li>
+                <li><a href="#">Stockist</a></li>
+                <li><a href="#">Journal</a></li>
+                <li><a href="#">FAQS</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">For Business</a></li>
+            </ul>
+        </div>
+        <div id="legal">
+            <h3>Legal pages</h3>
+            <ul>
+                <li><a href="#">Deliveries & Returns</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Refund Policy</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Sign up for updates</h3>
+            <input id="email" type="email" placeholder="Email adress">
+            <button type="submit"><img  id="arr" src="images/arrow_long_right_icon.png" alt=""></button>
+            <p>
+            <a href="#"><img src="images/instagram_icon.png" alt=""></a>
+            <a href="#"><img src="images/facebook_icon.png" alt=""></a>
+            <a href="#"><img src="images/twitter_icon.png" alt=""></a>
+            </p>
+        </div>
+        </nav>
+        <div id="c">(c) 2022 All rights reserved</div>
+    </footer>
+</body>
+</html>
