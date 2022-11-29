@@ -1,0 +1,11 @@
+$(function(){
+    $('article').hover(
+        function(){
+        $(this).find('.two').show();
+        $(this).find('.one').hide();
+    },
+        function(){
+        $(this).find('.one').show();
+        $(this).find('.two').hide();
+    });
+});
