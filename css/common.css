@@ -8,7 +8,7 @@ a:hover{color: slateblue;}
     text-align: center; padding-top: 25px; display: block; position: fixed;
     bottom: 100px; right: 100px; z-index: 3;}
 
-header{width: 100%; height: 60px; margin: 0 auto; border-bottom: 1px solid #333; background-color: white; position: fixed; z-index: 2;}
+header{width: 100%; height: 60px; margin: 0 auto; border-bottom: 1px solid #333; background-color: white; position: sticky; top: 0; z-index: 2}
 header nav{font-weight: bold; width: 1200px; height: 60px; margin: 0 auto; text-align: center; }
 header nav div{display: inline-block; vertical-align: top; border-right: 1px solid #333;
     text-align: center; width: 100px; height: 60px; }
